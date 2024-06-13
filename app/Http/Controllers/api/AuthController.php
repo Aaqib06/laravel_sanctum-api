@@ -108,5 +108,11 @@ class AuthController extends Controller
             'message' => 'logout success'
         ]);
     }
-   
+    public function profile(Request $request)
+{
+return $request->user();
 }
+   
+    }
+   
+
